@@ -5,7 +5,7 @@ version=$(curl -s 'https://raw.githubusercontent.com/ShiftNrg/shift/master/packa
 version=(`echo $version| tr ":" "\n"`)
 version=${version[1]}
 version=(`echo $version| tr --delete \" `)
-#echo $version
+# echo $version
 
 
 if [ -e $version ]
