@@ -1,6 +1,7 @@
-# shift_updater
-Auto Update Shift NRG
+# shift_updater Mainnet
+Auto Update Shiftnrg
 
+cd ~
 
 wget -O shift_updater.sh https://raw.githubusercontent.com/mavnezz/shift_updater/master/shift_updater.sh 
 
