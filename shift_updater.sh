@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Shift version to update to
-version=$(curl -s 'https://raw.githubusercontent.com/ShiftNrg/shift/master/package.json' | awk -F=":" -v RS="," '$1~/"version"/ {print}')
+version=$(curl -s 'https://raw.githubusercontent.com/ShiftNrg/shift/testnet/package.json' | awk -F=":" -v RS="," '$1~/"version"/ {print}')
 version=(`echo $version| tr ":" "\n"`)
 version=${version[1]}
 version=(`echo $version| tr --delete \" `)
